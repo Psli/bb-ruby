@@ -160,6 +160,12 @@ module BBRuby
       'Display an image with a set width and height', 
       '[img size=96x96]http://www.google.com/intl/en_ALL/images/logo.gif[/img]',
       :image],
+    'Image (Resized2)' => [
+      /\[img,(\d+),(\d+)\](.*?)\[\/img\]/im,
+      '<a href=""; appendurl="1" target="_blank"><img height=\2 alt=图片 src="/qzone/newblog/v5/editor/css/loading.gif" orgSrc="\3"; width=\1 appendurl="1"></a>',
+      'Display an image with a set width and height', 
+      '[img,316,441]http://www.google.com/intl/en_ALL/images/logo.gif[/img]',
+      :image],  
     'Image (Alternative)' => [
       /\[img=([^\[\]].*?)\.(#{@@imageformats})\]/im,
       '<img src="\1.\2" alt="" />',
