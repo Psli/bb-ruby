@@ -200,7 +200,7 @@ module BBRuby
       :video],
     'Flash' => [
       /\[flash,(\d+),(\d+)\](.*?)\[\/flash\]/mi,
-      '<embed class="blog_flash" id="0.17834790268951367" menu="false" invokeURLs="false" allowNetworking="internal" allowFullScreen="false" allowscriptaccess="never" wmode="transparent" src="\3" height="\2" width="\1" />',
+      '<embed class="blog_flash" id="0.17134390248921368" menu="false" invokeURLs="false" allowNetworking="internal" allowFullScreen="false" allowscriptaccess="never" wmode="transparent" src="\3" height="\2" width="\1" />',
       'Display a flash', 
       '[flash,520,425]http://player.youku.com/player.php/partnerid/XOTcy/sid/XMTYwNDA3MzQ4/v.swf[/flash]',
       :flash],
